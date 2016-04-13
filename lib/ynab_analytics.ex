@@ -1,0 +1,2 @@
+defmodule YnabAnalytics do
+end
