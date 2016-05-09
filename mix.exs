@@ -1,8 +1,8 @@
-defmodule YnabAnalytics.Mixfile do
+defmodule YNAB.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :ynab_analytics,
+    [app: :ynab,
      version: "0.0.1",
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
