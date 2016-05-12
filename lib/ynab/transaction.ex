@@ -14,7 +14,7 @@ defmodule YNAB.Transaction do
     :payeeId
   ]
 
-  def is_valid?(transaction) do
+  def valid?(transaction) do
     !transaction.isTombstone
   end
 end

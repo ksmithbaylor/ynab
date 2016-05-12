@@ -1,9 +1,12 @@
 defmodule YNAB.Budget do
+  alias YNAB.Transactions
   alias YNAB.Transaction
+  alias YNAB.Accounts
+  alias YNAB.Account
   alias YNAB.Files
 
   @derive [Poison.Encoder]
-  defstruct [:transactions]
+  defstruct [:transactions, :accounts]
 
   def from_budget_dir(ynab_dir) do
     ynab_dir |> Files.latest_budget_file |> File.read! |> from_json
@@ -11,11 +14,15 @@ defmodule YNAB.Budget do
 
   def from_json(json) do
     json |> Poison.decode!(as: %__MODULE__{
-      transactions: [%Transaction{}]
+      transactions: [%Transaction{}],
+      accounts: [%Account{}]
     })
   end
 
-  def valid_transactions(%__MODULE__{transactions: transactions}) do
-    transactions |> Enum.filter(fn t -> Transaction.is_valid?(t) end)
+  def on_budget_balance(%__MODULE__{transactions: transactions, accounts: accounts}) do
+    accounts
+    |> Accounts.budget_accounts
+    |> Transactions.for_accounts(transactions)
+    |> Transactions.sum
   end
 end
