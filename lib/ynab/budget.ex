@@ -1,6 +1,7 @@
 defmodule YNAB.Budget do
   alias YNAB.Transactions
   alias YNAB.Transaction
+  alias YNAB.Accounts
   alias YNAB.Account
   alias YNAB.Files
 
@@ -20,7 +21,7 @@ defmodule YNAB.Budget do
 
   def on_budget_balance(%__MODULE__{transactions: transactions, accounts: accounts}) do
     accounts
-    |> Enum.filter(&Account.active?/1)
+    |> Accounts.only_active
     |> Transactions.for_accounts(transactions)
     |> Transactions.sum
   end
