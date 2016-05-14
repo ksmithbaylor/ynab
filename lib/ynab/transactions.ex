@@ -20,6 +20,14 @@ defmodule YNAB.Transactions do
   def sum(transactions) do
     transactions
     |> Enum.map(fn t -> t.amount end)
-    |> Enum.sum
+    |> currency_sum
+  end
+
+  defp currency_sum(amounts) do
+    bigSum = amounts
+             |> Enum.map(fn amount -> amount * 100 end)
+             |> Enum.map(&round/1)
+             |> Enum.sum
+    bigSum / 100
   end
 end
