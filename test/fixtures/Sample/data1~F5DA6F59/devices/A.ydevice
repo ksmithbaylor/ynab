@@ -1,0 +1,13 @@
+{
+	"deviceGUID": "A9B78645-A18C-D86B-12BF-2BA9A4C65A85",
+	"YNABVersion": "Desktop version: YNAB 4 v4.3.817 (com.ynab.YNAB4.LiveCaptive), AIR Version: 4.0.0.1390",
+	"shortDeviceId": "A",
+	"formatVersion": "1.2",
+	"deviceType": "Desktop (AIR), OS:Mac OS 10.11.4",
+	"highestDataVersionImported": null,
+	"friendlyName": "Kevins-MBP",
+	"knowledgeInFullBudgetFile": "A-509",
+	"hasFullKnowledge": true,
+	"lastDataVersionFullyKnown": "4.2",
+	"knowledge": "A-509"
+}

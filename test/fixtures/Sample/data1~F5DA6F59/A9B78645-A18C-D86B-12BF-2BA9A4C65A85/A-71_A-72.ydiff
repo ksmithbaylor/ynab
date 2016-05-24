@@ -1,0 +1,40 @@
+{
+  "shortDeviceId": "A",
+  "formatVersion": null,
+  "dataVersion": "4.2",
+  "startVersion": "A-71",
+  "budgetDataGUID": null,
+  "endVersion": "A-72",
+  "items": [
+    {
+      "flag": null,
+      "importedPayee": null,
+      "date": "2016-01-01",
+      "subTransactions": null,
+      "matchedTransactions": null,
+      "YNABID": null,
+      "FITID": null,
+      "source": null,
+      "entityId": "62812E7F-6B64-D802-6124-DFF7D3360FB6",
+      "entityType": "transaction",
+      "targetAccountId": null,
+      "transferTransactionId": null,
+      "categoryId": "Category/__ImmediateIncome__",
+      "payeeId": "8465D257-0D88-7E2C-C8E5-DFF7D338756E",
+      "isTombstone": false,
+      "madeWithKnowledge": null,
+      "entityVersion": "A-72",
+      "amount": 0,
+      "isResolvedConflict": false,
+      "parentTransactionIdIfMatched": null,
+      "accountId": "1DF2FB72-9AA2-903A-DFB3-DFF7D32FACA9",
+      "memo": null,
+      "cleared": "Cleared",
+      "dateEnteredFromSchedule": null,
+      "accepted": true,
+      "checkNumber": null
+    }
+  ],
+  "deviceGUID": "A9B78645-A18C-D86B-12BF-2BA9A4C65A85",
+  "publishTime": "Mon May 23 19:34:54 GMT-0400 2016"
+}

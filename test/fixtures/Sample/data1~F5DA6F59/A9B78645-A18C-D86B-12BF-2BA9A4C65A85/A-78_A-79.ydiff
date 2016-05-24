@@ -1,0 +1,40 @@
+{
+  "shortDeviceId": "A",
+  "formatVersion": null,
+  "dataVersion": "4.2",
+  "startVersion": "A-78",
+  "budgetDataGUID": null,
+  "endVersion": "A-79",
+  "items": [
+    {
+      "flag": null,
+      "importedPayee": null,
+      "date": "2016-01-01",
+      "subTransactions": null,
+      "matchedTransactions": null,
+      "YNABID": null,
+      "FITID": null,
+      "source": null,
+      "entityId": "96985F00-7337-4B90-EE47-DFF8EEC61D95",
+      "entityType": "transaction",
+      "targetAccountId": null,
+      "transferTransactionId": null,
+      "categoryId": "Category/PreYNABDebt/409DAA82-DC67-6845-E9CB-DFF8EEBC21B5",
+      "payeeId": "8465D257-0D88-7E2C-C8E5-DFF7D338756E",
+      "isTombstone": false,
+      "madeWithKnowledge": null,
+      "entityVersion": "A-79",
+      "amount": 0,
+      "isResolvedConflict": false,
+      "parentTransactionIdIfMatched": null,
+      "accountId": "409DAA82-DC67-6845-E9CB-DFF8EEBC21B5",
+      "memo": null,
+      "cleared": "Cleared",
+      "dateEnteredFromSchedule": null,
+      "accepted": true,
+      "checkNumber": null
+    }
+  ],
+  "deviceGUID": "A9B78645-A18C-D86B-12BF-2BA9A4C65A85",
+  "publishTime": "Mon May 23 19:35:25 GMT-0400 2016"
+}

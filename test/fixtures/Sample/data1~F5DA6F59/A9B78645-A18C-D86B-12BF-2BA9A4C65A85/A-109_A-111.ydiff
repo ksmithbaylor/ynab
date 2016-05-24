@@ -1,0 +1,43 @@
+{
+  "shortDeviceId": "A",
+  "formatVersion": null,
+  "dataVersion": "4.2",
+  "startVersion": "A-109",
+  "budgetDataGUID": null,
+  "endVersion": "A-111",
+  "items": [
+    {
+      "accountName": "Random Loan",
+      "onBudget": false,
+      "isTombstone": false,
+      "madeWithKnowledge": null,
+      "entityVersion": "A-110",
+      "isResolvedConflict": false,
+      "lastEnteredCheckNumber": -1,
+      "hidden": false,
+      "entityId": "322B71AC-3373-F704-67DB-DFF9FD8BB1F1",
+      "note": "",
+      "lastReconciledDate": null,
+      "sortableIndex": 1879048191,
+      "entityType": "account",
+      "accountType": "OtherLiability",
+      "lastReconciledBalance": 0
+    },
+    {
+      "autoFillMemo": null,
+      "targetAccountId": "322B71AC-3373-F704-67DB-DFF9FD8BB1F1",
+      "name": "Transfer : Random Loan",
+      "isTombstone": false,
+      "madeWithKnowledge": null,
+      "enabled": true,
+      "entityVersion": "A-111",
+      "isResolvedConflict": false,
+      "entityId": "Payee/Transfer:322B71AC-3373-F704-67DB-DFF9FD8BB1F1",
+      "autoFillCategoryId": null,
+      "entityType": "payee",
+      "autoFillAmount": 0
+    }
+  ],
+  "deviceGUID": "A9B78645-A18C-D86B-12BF-2BA9A4C65A85",
+  "publishTime": "Mon May 23 19:39:51 GMT-0400 2016"
+}
